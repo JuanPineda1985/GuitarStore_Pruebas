@@ -9,7 +9,10 @@ const HeaderComponent = () => {
                 <Link color="inherit" component={RouterLink} to="/login">Login</Link>  
                 </IconButton>
                 <IconButton edge="start"  color="inherit" aria-label="menu">
-                <Link color="inherit" component={RouterLink} to="/register">Register</Link>
+                <Link color="inherit" component={RouterLink} to="/register">Registro</Link>
+                </IconButton>
+                <IconButton edge="start"  color="inherit" aria-label="menu">
+                <Link color="inherit" component={RouterLink} to="/user">Productos</Link>
                 </IconButton>
             </Toolbar>
         </AppBar>
